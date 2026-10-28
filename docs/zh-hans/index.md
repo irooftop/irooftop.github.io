@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/getting-started
+      link: /zh-hans/guide/getting-started
     - theme: alt
       text: 下载应用
-      link: /guide/desktop
+      link: /zh-hans/guide/desktop
     - theme: alt
       text: 工作原理
-      link: /features/how-it-works
+      link: /zh-hans/features/how-it-works
 
 features:
   - title: 学的是他的风格，而不只是他的话
     details: 从整个导出文件中生成风格档案，每个气泡、贴纸、GIF、回复和表情回应，都会作为工具调用重放给模型。
-    link: /features/how-it-works
+    link: /zh-hans/features/how-it-works
     linkText: 工作原理
   - title: 私密，想离线也可以
     details: 聊天记录保存在你的数据文件夹中。使用本地模型并开启离线模式后，应用会拒绝每一个会离开你电脑的请求。
-    link: /guide/offline
+    link: /zh-hans/guide/offline
     linkText: 离线与隐私
   - title: 多年的聊天，数GB的媒体
     details: 可导入 12 万条以上消息和 3 万个文件，并显示实时进度。重复导入会在上传任何媒体之前，根据消息识别出来。
-    link: /guide/export#large-exports
+    link: /zh-hans/guide/export#large-exports
     linkText: 大型导出
   - title: 照片、贴纸与语音
     details: 媒体库会按你选择的顺序描述发送的内容并转写语音，随时可以停止。
-    link: /features/media
+    link: /zh-hans/features/media
     linkText: 照片与语音
   - title: 分享链接
     details: 让朋友在 /s/名称 与角色对话，可设置 PIN 和限制，可在你的 Wi‑Fi 上使用，也可通过 名称.iroof.top 访问。
-    link: /features/share-links
+    link: /zh-hans/features/share-links
     linkText: 分享链接
   - title: 从 Telegram 回复
     details: 访客的消息会进入你的 Telegram 群组。你可以自己回复，也可以让 AI 在倒计时后回答。
-    link: /features/telegram
+    link: /zh-hans/features/telegram
     linkText: Telegram
   - title: 任意模型，任意 MCP 服务器
     details: OpenAI、OpenRouter、Gemini、Ollama、LM Studio、llama.cpp……以及通过 Streamable HTTP 或 stdio 使用的 MCP 工具。
-    link: /features/mcp
+    link: /zh-hans/features/mcp
     linkText: MCP 工具
   - title: 没有隐藏的内容
     details: 发送给模型的完整 JSON 只需一次点击即可查看，还包括其大小、历史预算和使用的 tokens。
-    link: /guide/getting-started#what-s-in-the-window
+    link: /zh-hans/guide/getting-started#what-s-in-the-window
     linkText: 上下文里有什么
   - title: 一个小巧的二进制文件
     details: 一个内置 Web 界面的 Rust 服务器，提供适用于 macOS、Windows 和 Linux 的桌面应用，以及 Homebrew 和 Docker 镜像。
-    link: /guide/getting-started
+    link: /zh-hans/guide/getting-started
     linkText: 安装
 ---
 

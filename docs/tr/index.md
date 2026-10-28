@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: Başla
-      link: /guide/getting-started
+      link: /tr/guide/getting-started
     - theme: alt
       text: Uygulamayı indir
-      link: /guide/desktop
+      link: /tr/guide/desktop
     - theme: alt
       text: Nasıl çalışır
-      link: /features/how-it-works
+      link: /tr/features/how-it-works
 
 features:
   - title: Sadece sözleri değil, tarzı
     details: Tüm dışa aktarımdan çıkarılan bir stil profili; her balon, çıkartma, GIF, yanıt ve tepki modele bir araç çağrısı olarak yeniden oynatılır.
-    link: /features/how-it-works
+    link: /tr/features/how-it-works
     linkText: Nasıl çalışır
   - title: Özel, istersen çevrimdışı
     details: Sohbetler veri klasöründe kalır. Yerel bir model ve çevrimdışı mod açıkken uygulama bilgisayarından çıkacak her isteği reddeder.
-    link: /guide/offline
+    link: /tr/guide/offline
     linkText: Çevrimdışı ve gizlilik
   - title: Yıllarca sohbet, gigabaytlarca medya
     details: 120.000'den fazla mesaj ve 30.000 dosya, canlı ilerleme göstererek içe aktarılır. Yinelenen bir içe aktarma, medya yüklenmeden önce mesajlardan anlaşılır.
-    link: /guide/export#large-exports
+    link: /tr/guide/export#large-exports
     linkText: Büyük dışa aktarımlar
   - title: Fotoğraf, çıkartma ve ses
     details: Gönderilenleri tanımlayan ve sesi yazıya döken bir medya kütüphanesi; sırayı sen seçersin ve istediğin an durdurabilirsin.
-    link: /features/media
+    link: /tr/features/media
     linkText: Fotoğraf ve ses
   - title: Paylaşım bağlantıları
     details: Bir arkadaşın /s/ad adresinde karakterle konuşmasına izin ver; PIN ve sınırlarla, Wi‑Fi'nda ya da ad.iroof.top üzerinden.
-    link: /features/share-links
+    link: /tr/features/share-links
     linkText: Paylaşım bağlantıları
   - title: Telegram'dan yanıtla
     details: Ziyaretçilerin mesajları Telegram grubuna düşer. Kendin yanıtla ya da yapay zekânın geri sayımdan sonra cevap vermesine izin ver.
-    link: /features/telegram
+    link: /tr/features/telegram
     linkText: Telegram
   - title: Her model, her MCP sunucusu
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… ve Streamable HTTP ya da stdio üzerinden MCP araçları.
-    link: /features/mcp
+    link: /tr/features/mcp
     linkText: MCP araçları
   - title: Gizli hiçbir şey yok
     details: Modele giden tam JSON bir tık uzakta; boyutu, geçmiş bütçesi ve harcanan token sayısıyla birlikte.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /tr/guide/getting-started#what-s-in-the-window
     linkText: Pencerede ne var
   - title: Küçük tek bir ikili dosya
     details: İçinde web arayüzü olan bir Rust sunucusu; macOS, Windows ve Linux için masaüstü uygulamaları, Homebrew ve bir Docker imajı.
-    link: /guide/getting-started
+    link: /tr/guide/getting-started
     linkText: Kur
 ---
 

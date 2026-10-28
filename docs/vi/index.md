@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: Bắt đầu
-      link: /guide/getting-started
+      link: /vi/guide/getting-started
     - theme: alt
       text: Tải ứng dụng
-      link: /guide/desktop
+      link: /vi/guide/desktop
     - theme: alt
       text: Cách hoạt động
-      link: /features/how-it-works
+      link: /vi/features/how-it-works
 
 features:
   - title: Cách nói của họ, không chỉ lời nói
     details: Một hồ sơ phong cách lấy từ toàn bộ bản xuất, và mỗi bong bóng, sticker, GIF, câu trả lời, biểu cảm được phát lại cho mô hình dưới dạng một lệnh gọi công cụ.
-    link: /features/how-it-works
+    link: /vi/features/how-it-works
     linkText: Cách hoạt động
   - title: Riêng tư, và ngoại tuyến nếu bạn muốn
     details: Các cuộc trò chuyện nằm trong thư mục dữ liệu của bạn. Với mô hình cục bộ và chế độ ngoại tuyến bật, ứng dụng từ chối mọi yêu cầu sẽ rời khỏi máy tính của bạn.
-    link: /guide/offline
+    link: /vi/guide/offline
     linkText: Ngoại tuyến và quyền riêng tư
   - title: Nhiều năm chat, hàng gigabyte đa phương tiện
     details: Hơn 120.000 tin nhắn và 30.000 tệp được nhập kèm tiến trình trực tiếp. Lần nhập trùng được nhận ra từ tin nhắn, trước khi bất kỳ đa phương tiện nào được tải lên.
-    link: /guide/export#large-exports
+    link: /vi/guide/export#large-exports
     linkText: Bản xuất lớn
   - title: Ảnh, sticker và giọng nói
     details: Thư viện đa phương tiện mô tả những gì đã gửi và chuyển giọng nói thành chữ, theo thứ tự bạn chọn, và có thể dừng bất cứ lúc nào.
-    link: /features/media
+    link: /vi/features/media
     linkText: Ảnh và giọng nói
   - title: Liên kết chia sẻ
     details: Cho một người bạn trò chuyện với nhân vật tại /s/tên, với mã PIN và giới hạn, trên Wi‑Fi của bạn hoặc tại tên.iroof.top.
-    link: /features/share-links
+    link: /vi/features/share-links
     linkText: Liên kết chia sẻ
   - title: Trả lời từ Telegram
     details: Tin nhắn của khách truy cập đến nhóm Telegram của bạn. Tự trả lời, hoặc để AI trả lời sau một bộ đếm ngược.
-    link: /features/telegram
+    link: /vi/features/telegram
     linkText: Telegram
   - title: Mọi mô hình, mọi máy chủ MCP
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… cùng các công cụ MCP qua Streamable HTTP hoặc stdio.
-    link: /features/mcp
+    link: /vi/features/mcp
     linkText: Công cụ MCP
   - title: Không giấu gì
     details: Chỉ một cú nhấp để xem đúng JSON gửi cho mô hình, cùng kích thước, ngân sách lịch sử và số token đã dùng.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /vi/guide/getting-started#what-s-in-the-window
     linkText: Những gì có trong cửa sổ
   - title: Một tệp nhị phân nhỏ
     details: Máy chủ Rust có sẵn giao diện web, ứng dụng máy tính cho macOS, Windows và Linux, Homebrew và một image Docker.
-    link: /guide/getting-started
+    link: /vi/guide/getting-started
     linkText: Cài đặt
 ---
 

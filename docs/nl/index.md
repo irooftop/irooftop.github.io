@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: Aan de slag
-      link: /guide/getting-started
+      link: /nl/guide/getting-started
     - theme: alt
       text: Download de app
-      link: /guide/desktop
+      link: /nl/guide/desktop
     - theme: alt
       text: Zo werkt het
-      link: /features/how-it-works
+      link: /nl/features/how-it-works
 
 features:
   - title: Zijn stijl, niet alleen zijn woorden
     details: Een stijlprofiel uit de hele export, en elke bubbel, sticker, GIF, antwoord en reactie wordt aan het model opnieuw afgespeeld als toolaanroep.
-    link: /features/how-it-works
+    link: /nl/features/how-it-works
     linkText: Zo werkt het
   - title: Privé, en offline als je wilt
     details: Chats blijven in je datamap. Met een lokaal model en de offlinemodus aan, weigert de app elk verzoek dat je computer zou verlaten.
-    link: /guide/offline
+    link: /nl/guide/offline
     linkText: Offline en privacy
   - title: Jaren aan chats, gigabytes aan media
     details: Meer dan 120.000 berichten en 30.000 bestanden worden met live voortgang geïmporteerd. Een herhaalde import wordt herkend aan de berichten, voordat er media wordt geüpload.
-    link: /guide/export#large-exports
+    link: /nl/guide/export#large-exports
     linkText: Grote exports
   - title: Foto's, stickers en stem
     details: Een mediabibliotheek die beschrijft wat er is verstuurd en spraak transcribeert, in de volgorde die je kiest, en op elk moment te stoppen.
-    link: /features/media
+    link: /nl/features/media
     linkText: Foto's en stem
   - title: Deellinks
     details: Laat een vriend met de persona praten op /s/naam, met pincode en limieten, op je wifi of op naam.iroof.top.
-    link: /features/share-links
+    link: /nl/features/share-links
     linkText: Deellinks
   - title: Antwoorden vanuit Telegram
     details: Berichten van bezoekers komen in je Telegram-groep. Antwoord zelf, of laat de AI antwoorden na een aftelling.
-    link: /features/telegram
+    link: /nl/features/telegram
     linkText: Telegram
   - title: Elk model, elke MCP-server
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… plus MCP-tools via Streamable HTTP of stdio.
-    link: /features/mcp
+    link: /nl/features/mcp
     linkText: MCP-tools
   - title: Niets verborgen
     details: Het exacte JSON naar het model is één klik verwijderd, met de grootte, het geschiedenisbudget en de gebruikte tokens.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /nl/guide/getting-started#what-s-in-the-window
     linkText: Wat er in het venster zit
   - title: Eén klein binair bestand
     details: Een Rust-server met de webinterface erin, desktopapps voor macOS, Windows en Linux, Homebrew en een Docker-image.
-    link: /guide/getting-started
+    link: /nl/guide/getting-started
     linkText: Installeren
 ---
 

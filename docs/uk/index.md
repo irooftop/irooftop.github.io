@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: Почати
-      link: /guide/getting-started
+      link: /uk/guide/getting-started
     - theme: alt
       text: Завантажити застосунок
-      link: /guide/desktop
+      link: /uk/guide/desktop
     - theme: alt
       text: Як це працює
-      link: /features/how-it-works
+      link: /uk/features/how-it-works
 
 features:
   - title: Її манера, а не лише слова
     details: Профіль стилю, побудований з усього експорту, і кожне повідомлення, стікер, GIF, відповідь та реакція відтворюються моделі як виклик інструмента.
-    link: /features/how-it-works
+    link: /uk/features/how-it-works
     linkText: Як це працює
   - title: Приватно, а якщо хочете – офлайн
     details: Чати зберігаються у вашій папці даних. З локальною моделлю та ввімкненим офлайн-режимом застосунок відхиляє кожен запит, який покинув би ваш комп'ютер.
-    link: /guide/offline
+    link: /uk/guide/offline
     linkText: Офлайн і конфіденційність
   - title: Роки листування, гігабайти медіа
     details: Понад 120 000 повідомлень і 30 000 файлів імпортуються з живим прогресом. Повторний імпорт розпізнається за повідомленнями ще до завантаження будь-яких медіа.
-    link: /guide/export#large-exports
+    link: /uk/guide/export#large-exports
     linkText: Великі експорти
   - title: Фото, стікери та голос
     details: Медіатека описує надіслане і розшифровує голосові в порядку, який ви оберете, і процес можна зупинити будь-коли.
-    link: /features/media
+    link: /uk/features/media
     linkText: Фото та голос
   - title: Посилання для спільного доступу
     details: Дайте другові поговорити з персонажем за адресою /s/назва, з PIN-кодом і обмеженнями, у вашій Wi‑Fi мережі або на name.iroof.top.
-    link: /features/share-links
+    link: /uk/features/share-links
     linkText: Посилання для спільного доступу
   - title: Відповіді з Telegram
     details: Повідомлення відвідувачів потрапляють до вашої групи в Telegram. Відповідайте самі або нехай ШІ відповість після зворотного відліку.
-    link: /features/telegram
+    link: /uk/features/telegram
     linkText: Telegram
   - title: Будь-яка модель, будь-який сервер MCP
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… і інструменти MCP через Streamable HTTP або stdio.
-    link: /features/mcp
+    link: /uk/features/mcp
     linkText: Інструменти MCP
   - title: Нічого не приховано
     details: Точний JSON, надісланий моделі, відкривається одним кліком, з розміром, бюджетом історії та витраченими токенами.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /uk/guide/getting-started#what-s-in-the-window
     linkText: Що у вікні
   - title: Один невеликий бінарний файл
     details: Сервер на Rust із вбудованим веб-інтерфейсом, настільні застосунки для macOS, Windows і Linux, Homebrew та образ Docker.
-    link: /guide/getting-started
+    link: /uk/guide/getting-started
     linkText: Встановлення
 ---
 

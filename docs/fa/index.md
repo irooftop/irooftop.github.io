@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: شروع کنید
-      link: /guide/getting-started
+      link: /fa/guide/getting-started
     - theme: alt
       text: دانلود برنامه
-      link: /guide/desktop
+      link: /fa/guide/desktop
     - theme: alt
       text: چگونه کار می‌کند
-      link: /features/how-it-works
+      link: /fa/features/how-it-works
 
 features:
   - title: سبک او، نه فقط کلماتش
     details: یک پروفایل سبک از کل خروجی ساخته می‌شود و هر حباب، استیکر، GIF، پاسخ و واکنش به‌عنوان یک فراخوانی ابزار دوباره برای مدل پخش می‌شود.
-    link: /features/how-it-works
+    link: /fa/features/how-it-works
     linkText: چگونه کار می‌کند
   - title: خصوصی، و اگر بخواهید بدون اینترنت
     details: گفتگوها در پوشهٔ داده‌های شما می‌مانند. با یک مدل محلی و حالت آفلاین روشن، برنامه هر درخواستی را که رایانهٔ شما را ترک کند رد می‌کند.
-    link: /guide/offline
+    link: /fa/guide/offline
     linkText: آفلاین و حریم خصوصی
   - title: سال‌ها گفتگو، گیگابایت‌ها رسانه
     details: بیش از ۱۲۰٬۰۰۰ پیام و ۳۰٬۰۰۰ فایل با پیشرفت زنده وارد می‌شوند. وارد کردن تکراری از روی پیام‌ها شناسایی می‌شود، پیش از آنکه رسانه‌ای بارگذاری شود.
-    link: /guide/export#large-exports
+    link: /fa/guide/export#large-exports
     linkText: خروجی‌های بزرگ
   - title: عکس، استیکر و صدا
     details: کتابخانهٔ رسانه‌ای که آنچه فرستاده شده را توصیف می‌کند و صدا را به متن تبدیل می‌کند، به ترتیبی که شما انتخاب کنید، و در هر لحظه قابل توقف است.
-    link: /features/media
+    link: /fa/features/media
     linkText: عکس و صدا
   - title: پیوندهای اشتراک‌گذاری
     details: به یک دوست اجازه دهید در /s/نام با شخصیت حرف بزند، با PIN و محدودیت، روی Wi‑Fi شما یا در name.iroof.top.
-    link: /features/share-links
+    link: /fa/features/share-links
     linkText: پیوندهای اشتراک‌گذاری
   - title: پاسخ از Telegram
     details: پیام‌های بازدیدکنندگان به گروه Telegram شما می‌رسد. خودتان پاسخ دهید، یا پس از شمارش معکوس بگذارید هوش مصنوعی پاسخ دهد.
-    link: /features/telegram
+    link: /fa/features/telegram
     linkText: Telegram
   - title: هر مدلی، هر سرور MCP
     details: OpenAI، OpenRouter، Gemini، Ollama، LM Studio، llama.cpp… و ابزارهای MCP از طریق Streamable HTTP یا stdio.
-    link: /features/mcp
+    link: /fa/features/mcp
     linkText: ابزارهای MCP
   - title: چیزی پنهان نیست
     details: JSON دقیقِ فرستاده‌شده به مدل یک کلیک دورتر است، با اندازه، بودجهٔ تاریخچه و توکن‌های مصرف‌شده.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /fa/guide/getting-started#what-s-in-the-window
     linkText: داخل پنجره چیست
   - title: یک فایل باینری کوچک
     details: یک سرور Rust با رابط وب داخلی، برنامه‌های رومیزی برای macOS، Windows و Linux، Homebrew و یک ایمیج Docker.
-    link: /guide/getting-started
+    link: /fa/guide/getting-started
     linkText: نصب
 ---
 

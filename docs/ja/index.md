@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: はじめる
-      link: /guide/getting-started
+      link: /ja/guide/getting-started
     - theme: alt
       text: アプリをダウンロード
-      link: /guide/desktop
+      link: /ja/guide/desktop
     - theme: alt
       text: 仕組み
-      link: /features/how-it-works
+      link: /ja/features/how-it-works
 
 features:
   - title: 言葉だけでなく、話し方まで
     details: 書き出し全体から作られるスタイルプロフィールと、一つひとつの吹き出し、スタンプ、GIF、返信、リアクションを、ツール呼び出しとしてモデルに再現します。
-    link: /features/how-it-works
+    link: /ja/features/how-it-works
     linkText: 仕組み
   - title: プライベート、必要ならオフラインでも
     details: チャットはデータフォルダに残ります。ローカルのモデルとオフラインモードを使えば、パソコンの外へ出るリクエストはすべて拒否されます。
-    link: /guide/offline
+    link: /ja/guide/offline
     linkText: オフラインとプライバシー
   - title: 何年分ものチャット、ギガバイト単位のメディア
     details: 12万件以上のメッセージと3万ファイルを、進捗表示つきで取り込めます。再インポートは、メディアをアップロードする前にメッセージから見分けられます。
-    link: /guide/export#large-exports
+    link: /ja/guide/export#large-exports
     linkText: 大きな書き出し
   - title: 写真、スタンプ、音声
     details: 送られたものを説明し、音声を文字に起こすメディアライブラリ。順番は選べ、いつでも止められます。
-    link: /features/media
+    link: /ja/features/media
     linkText: 写真と音声
   - title: 共有リンク
     details: 友だちが /s/名前 でペルソナと話せます。PIN と上限つき。Wi‑Fi 上でも、name.iroof.top からでも。
-    link: /features/share-links
+    link: /ja/features/share-links
     linkText: 共有リンク
   - title: Telegram から返信
     details: 訪問者のメッセージは、あなたの Telegram グループに届きます。自分で返信するか、カウントダウンの後に AI に答えさせられます。
-    link: /features/telegram
+    link: /ja/features/telegram
     linkText: Telegram
   - title: どのモデルも、どの MCP サーバーも
     details: OpenAI、OpenRouter、Gemini、Ollama、LM Studio、llama.cpp…… そして Streamable HTTP や stdio 経由の MCP ツール。
-    link: /features/mcp
+    link: /ja/features/mcp
     linkText: MCP ツール
   - title: 隠しごとなし
     details: モデルに送られた正確な JSON を一クリックで確認できます。サイズ、履歴の予算、使ったトークン数も分かります。
-    link: /guide/getting-started#what-s-in-the-window
+    link: /ja/guide/getting-started#what-s-in-the-window
     linkText: ウィンドウの中身
   - title: 小さな一つのバイナリ
     details: Web UI を内蔵した Rust サーバー。macOS、Windows、Linux 向けのデスクトップアプリ、Homebrew、Docker イメージがあります。
-    link: /guide/getting-started
+    link: /ja/guide/getting-started
     linkText: インストール
 ---
 

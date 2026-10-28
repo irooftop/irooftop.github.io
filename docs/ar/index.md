@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: البدء
-      link: /guide/getting-started
+      link: /ar/guide/getting-started
     - theme: alt
       text: تنزيل التطبيق
-      link: /guide/desktop
+      link: /ar/guide/desktop
     - theme: alt
       text: كيف يعمل
-      link: /features/how-it-works
+      link: /ar/features/how-it-works
 
 features:
   - title: أسلوبه، لا كلماته فقط
     details: ملف أسلوب من التصدير كله، وكل فقاعة وملصق وصورة متحركة وردّ وتفاعل يُعاد تشغيله أمام النموذج كاستدعاء أداة.
-    link: /features/how-it-works
+    link: /ar/features/how-it-works
     linkText: كيف يعمل
   - title: خاص، ويعمل دون اتصال إن شئت
     details: تبقى المحادثات في مجلد بياناتك. مع نموذج محلي وتفعيل وضع عدم الاتصال، يرفض التطبيق كل طلب يغادر حاسوبك.
-    link: /guide/offline
+    link: /ar/guide/offline
     linkText: دون اتصال والخصوصية
   - title: سنوات من المحادثات، وغيغابايتات من الوسائط
     details: استيراد أكثر من 120,000 رسالة و30,000 ملف مع تقدّم مباشر. يُكتشف الاستيراد المكرر من الرسائل قبل رفع أي وسائط.
-    link: /guide/export#large-exports
+    link: /ar/guide/export#large-exports
     linkText: التصديرات الكبيرة
   - title: الصور والملصقات والصوت
     details: مكتبة وسائط تصف ما أُرسل وتحوّل الصوت إلى نص، بالترتيب الذي تختاره، ويمكن إيقافها في أي وقت.
-    link: /features/media
+    link: /ar/features/media
     linkText: الصور والصوت
   - title: روابط المشاركة
     details: دع صديقاً يتحدث مع الشخصية على /s/الاسم، برقم PIN وحدود، على شبكة Wi‑Fi الخاصة بك أو على name.iroof.top.
-    link: /features/share-links
+    link: /ar/features/share-links
     linkText: روابط المشاركة
   - title: الرد من تيليغرام
     details: تصل رسائل الزوار إلى مجموعة تيليغرام الخاصة بك. ردّ بنفسك، أو دع الذكاء الاصطناعي يجيب بعد عدّ تنازلي.
-    link: /features/telegram
+    link: /ar/features/telegram
     linkText: تيليغرام
   - title: أي نموذج، وأي خادم MCP
     details: OpenAI وOpenRouter وGemini وOllama وLM Studio وllama.cpp… وأدوات MCP عبر Streamable HTTP أو stdio.
-    link: /features/mcp
+    link: /ar/features/mcp
     linkText: أدوات MCP
   - title: لا شيء مخفي
     details: ملف JSON الدقيق المرسل إلى النموذج على بُعد نقرة، مع حجمه وميزانية السجل والرموز المستخدمة.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /ar/guide/getting-started#what-s-in-the-window
     linkText: ما في النافذة
   - title: ملف تنفيذي صغير واحد
     details: خادم Rust مع واجهة الويب مدمجة، وتطبيقات سطح مكتب لـ macOS وWindows وLinux، وHomebrew وصورة Docker.
-    link: /guide/getting-started
+    link: /ar/guide/getting-started
     linkText: التثبيت
 ---
 

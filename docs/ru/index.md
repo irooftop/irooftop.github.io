@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: Начать
-      link: /guide/getting-started
+      link: /ru/guide/getting-started
     - theme: alt
       text: Скачать приложение
-      link: /guide/desktop
+      link: /ru/guide/desktop
     - theme: alt
       text: Как это работает
-      link: /features/how-it-works
+      link: /ru/features/how-it-works
 
 features:
   - title: Манера речи, а не только слова
     details: Профиль стиля, построенный по всему экспорту, и каждое сообщение, стикер, GIF, ответ и реакция воспроизводятся модели как вызов инструмента.
-    link: /features/how-it-works
+    link: /ru/features/how-it-works
     linkText: Как это работает
   - title: Приватно, а если хотите, то и офлайн
     details: Чаты хранятся в вашей папке данных. С локальной моделью и включённым офлайн-режимом приложение отклоняет любой запрос, который покинул бы ваш компьютер.
-    link: /guide/offline
+    link: /ru/guide/offline
     linkText: Офлайн и конфиденциальность
   - title: Годы переписки, гигабайты медиа
     details: Более 120 000 сообщений и 30 000 файлов импортируются с живым прогрессом. Повторный импорт определяется по сообщениям, до загрузки любых медиа.
-    link: /guide/export#large-exports
+    link: /ru/guide/export#large-exports
     linkText: Большие экспорты
   - title: Фото, стикеры и голос
     details: Медиатека описывает присланное и расшифровывает голосовые в том порядке, который вы выберете, и это можно остановить в любой момент.
-    link: /features/media
+    link: /ru/features/media
     linkText: Фото и голос
   - title: Ссылки для общего доступа
     details: Пусть друг поговорит с персонажем по адресу /s/имя, с PIN-кодом и ограничениями, в вашей Wi‑Fi сети или на name.iroof.top.
-    link: /features/share-links
+    link: /ru/features/share-links
     linkText: Ссылки для общего доступа
   - title: Ответы из Telegram
     details: Сообщения посетителей попадают в вашу группу Telegram. Отвечайте сами или пусть ИИ ответит после обратного отсчёта.
-    link: /features/telegram
+    link: /ru/features/telegram
     linkText: Telegram
   - title: Любая модель, любой MCP-сервер
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… и инструменты MCP через Streamable HTTP или stdio.
-    link: /features/mcp
+    link: /ru/features/mcp
     linkText: Инструменты MCP
   - title: Ничего не скрыто
     details: Точный JSON, отправленный модели, открывается одним нажатием, с размером, бюджетом истории и использованными токенами.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /ru/guide/getting-started#what-s-in-the-window
     linkText: Что в окне
   - title: Один небольшой бинарный файл
     details: Сервер на Rust с веб-интерфейсом внутри, настольные приложения для macOS, Windows и Linux, Homebrew и образ Docker.
-    link: /guide/getting-started
+    link: /ru/guide/getting-started
     linkText: Установка
 ---
 

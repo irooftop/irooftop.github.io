@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: شروع کریں
-      link: /guide/getting-started
+      link: /ur/guide/getting-started
     - theme: alt
       text: ایپ ڈاؤن لوڈ کریں
-      link: /guide/desktop
+      link: /ur/guide/desktop
     - theme: alt
       text: یہ کیسے کام کرتا ہے
-      link: /features/how-it-works
+      link: /ur/features/how-it-works
 
 features:
   - title: ان کا انداز، صرف ان کے الفاظ نہیں
     details: پورے ایکسپورٹ سے ایک اسٹائل پروفائل، اور ہر بلبلہ، اسٹیکر، GIF، جواب اور ری ایکشن ماڈل کو ایک ٹول کال کے طور پر دوبارہ چلایا جاتا ہے۔
-    link: /features/how-it-works
+    link: /ur/features/how-it-works
     linkText: یہ کیسے کام کرتا ہے
   - title: نجی، اور چاہیں تو آف لائن بھی
     details: چیٹس آپ کے ڈیٹا فولڈر میں رہتی ہیں۔ مقامی ماڈل اور آف لائن موڈ آن ہونے پر، ایپ ہر ایسی درخواست کو روک دیتی ہے جو آپ کے کمپیوٹر سے باہر جاتی۔
-    link: /guide/offline
+    link: /ur/guide/offline
     linkText: آف لائن اور رازداری
   - title: برسوں کی چیٹ، گیگابائٹس کا میڈیا
     details: 1,20,000 سے زیادہ پیغامات اور 30,000 فائلیں لائیو پیش رفت کے ساتھ امپورٹ ہوتی ہیں۔ میڈیا اپلوڈ ہونے سے پہلے پیغامات سے دوبارہ امپورٹ پہچان لیا جاتا ہے۔
-    link: /guide/export#large-exports
+    link: /ur/guide/export#large-exports
     linkText: بڑے ایکسپورٹس
   - title: تصاویر، اسٹیکرز اور آواز
     details: ایک میڈیا لائبریری جو بھیجی گئی چیزوں کی تفصیل دیتی ہے اور آواز کو تحریر میں بدلتی ہے، اُس ترتیب سے جو آپ چنیں، اور کسی بھی وقت روکی جا سکتی ہے۔
-    link: /features/media
+    link: /ur/features/media
     linkText: تصاویر اور آواز
   - title: شیئر لنکس
     details: کسی دوست کو /s/نام پر کردار سے بات کرنے دیں، PIN اور حدود کے ساتھ، آپ کے Wi‑Fi پر یا name.iroof.top پر۔
-    link: /features/share-links
+    link: /ur/features/share-links
     linkText: شیئر لنکس
   - title: Telegram سے جواب
     details: وزیٹرز کے پیغامات آپ کے Telegram گروپ میں آتے ہیں۔ آپ خود جواب دیں، یا کاؤنٹ ڈاؤن کے بعد AI کو جواب دینے دیں۔
-    link: /features/telegram
+    link: /ur/features/telegram
     linkText: Telegram
   - title: کوئی بھی ماڈل، کوئی بھی MCP سرور
     details: OpenAI، OpenRouter، Gemini، Ollama، LM Studio، llama.cpp… اور Streamable HTTP یا stdio پر MCP ٹولز۔
-    link: /features/mcp
+    link: /ur/features/mcp
     linkText: MCP ٹولز
   - title: کچھ بھی چھپا ہوا نہیں
     details: ماڈل کو بھیجا گیا درست JSON ایک کلک دور ہے، اس کے سائز، تاریخ کے بجٹ اور استعمال شدہ ٹوکنز کے ساتھ۔
-    link: /guide/getting-started#what-s-in-the-window
+    link: /ur/guide/getting-started#what-s-in-the-window
     linkText: ونڈو میں کیا ہے
   - title: ایک چھوٹی بائنری
     details: ویب UI کے ساتھ ایک Rust سرور، macOS، Windows اور Linux کے لیے ڈیسک ٹاپ ایپس، Homebrew اور ایک Docker امیج۔
-    link: /guide/getting-started
+    link: /ur/guide/getting-started
     linkText: انسٹال کریں
 ---
 

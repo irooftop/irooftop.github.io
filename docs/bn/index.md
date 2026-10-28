@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: শুরু করুন
-      link: /guide/getting-started
+      link: /bn/guide/getting-started
     - theme: alt
       text: অ্যাপ ডাউনলোড করুন
-      link: /guide/desktop
+      link: /bn/guide/desktop
     - theme: alt
       text: এটি কীভাবে কাজ করে
-      link: /features/how-it-works
+      link: /bn/features/how-it-works
 
 features:
   - title: তাদের ধরন, শুধু তাদের কথা নয়
     details: পুরো এক্সপোর্ট থেকে একটি স্টাইল প্রোফাইল, আর প্রতিটি বাবল, স্টিকার, GIF, উত্তর ও রিঅ্যাকশন মডেলের কাছে একটি টুল কলের আকারে আবার চালানো হয়।
-    link: /features/how-it-works
+    link: /bn/features/how-it-works
     linkText: এটি কীভাবে কাজ করে
   - title: ব্যক্তিগত, আর চাইলে অফলাইনেও
     details: চ্যাট তোমার ডেটা ফোল্ডারে থাকে। একটি লোকাল মডেল আর অফলাইন মোড চালু থাকলে, কম্পিউটার থেকে বাইরে যাওয়ার প্রতিটি অনুরোধ অ্যাপ আটকে দেয়।
-    link: /guide/offline
+    link: /bn/guide/offline
     linkText: অফলাইন ও গোপনীয়তা
   - title: বছরের পর বছরের চ্যাট, গিগাবাইটের মিডিয়া
     details: ১,২০,০০০-এরও বেশি বার্তা ও ৩০,০০০ ফাইল লাইভ অগ্রগতিসহ ইমপোর্ট হয়। মিডিয়া আপলোডের আগেই বার্তা থেকে আবার-ইমপোর্ট চিহ্নিত হয়।
-    link: /guide/export#large-exports
+    link: /bn/guide/export#large-exports
     linkText: বড় এক্সপোর্ট
   - title: ছবি, স্টিকার ও ভয়েস
     details: একটি মিডিয়া লাইব্রেরি, যা পাঠানো জিনিসের বর্ণনা দেয় এবং ভয়েস লিখিতরূপে রূপান্তর করে, তুমি যে ক্রম বেছে নাও সেই ক্রমে, আর যেকোনো সময় থামানো যায়।
-    link: /features/media
+    link: /bn/features/media
     linkText: ছবি ও ভয়েস
   - title: শেয়ার লিংক
     details: একজন বন্ধুকে /s/নাম-এ চরিত্রের সাথে কথা বলতে দাও, PIN ও সীমাসহ, তোমার Wi‑Fi-তে বা name.iroof.top-এ।
-    link: /features/share-links
+    link: /bn/features/share-links
     linkText: শেয়ার লিংক
   - title: Telegram থেকে উত্তর
     details: দর্শকদের বার্তা তোমার Telegram গ্রুপে যায়। তুমি নিজে উত্তর দাও, অথবা কাউন্টডাউনের পরে AI উত্তর দিক।
-    link: /features/telegram
+    link: /bn/features/telegram
     linkText: Telegram
   - title: যেকোনো মডেল, যেকোনো MCP সার্ভার
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… আর Streamable HTTP বা stdio-এর উপর MCP টুলস।
-    link: /features/mcp
+    link: /bn/features/mcp
     linkText: MCP টুলস
   - title: কিছুই লুকানো নেই
     details: মডেলকে পাঠানো সঠিক JSON এক ক্লিকেই দেখা যায়, সাথে এর আকার, ইতিহাসের বাজেট আর ব্যবহৃত টোকেন।
-    link: /guide/getting-started#what-s-in-the-window
+    link: /bn/guide/getting-started#what-s-in-the-window
     linkText: উইন্ডোতে কী আছে
   - title: একটি ছোট বাইনারি
     details: ভেতরে ওয়েব UI সহ একটি Rust সার্ভার, macOS, Windows ও Linux-এর ডেস্কটপ অ্যাপ, Homebrew আর একটি Docker ইমেজ।
-    link: /guide/getting-started
+    link: /bn/guide/getting-started
     linkText: ইনস্টল
 ---
 

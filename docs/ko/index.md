@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: 시작하기
-      link: /guide/getting-started
+      link: /ko/guide/getting-started
     - theme: alt
       text: 앱 다운로드
-      link: /guide/desktop
+      link: /ko/guide/desktop
     - theme: alt
       text: 작동 방식
-      link: /features/how-it-works
+      link: /ko/features/how-it-works
 
 features:
   - title: 말투까지, 단어만이 아니라
     details: 전체 내보내기에서 만든 스타일 프로필과, 말풍선·스티커·GIF·답장·반응 하나하나를 도구 호출로 모델에 다시 재생합니다.
-    link: /features/how-it-works
+    link: /ko/features/how-it-works
     linkText: 작동 방식
   - title: 비공개, 원하면 오프라인으로
     details: 대화는 데이터 폴더에 남습니다. 로컬 모델과 오프라인 모드를 켜면, 내 컴퓨터 밖으로 나가는 요청은 모두 거부됩니다.
-    link: /guide/offline
+    link: /ko/guide/offline
     linkText: 오프라인과 개인정보
   - title: 수년간의 대화, 기가바이트 단위의 미디어
     details: 12만 건이 넘는 메시지와 3만 개의 파일을 실시간 진행률과 함께 가져옵니다. 미디어를 올리기 전에 메시지로 중복 가져오기를 알아봅니다.
-    link: /guide/export#large-exports
+    link: /ko/guide/export#large-exports
     linkText: 큰 내보내기
   - title: 사진, 스티커, 음성
     details: 보낸 것을 설명하고 음성을 글로 옮기는 미디어 보관함입니다. 원하는 순서로 처리하며 언제든 멈출 수 있습니다.
-    link: /features/media
+    link: /ko/features/media
     linkText: 사진과 음성
   - title: 공유 링크
     details: 친구가 /s/이름 에서 페르소나와 대화하게 하세요. PIN과 제한을 두고, 내 Wi‑Fi에서 또는 name.iroof.top 으로.
-    link: /features/share-links
+    link: /ko/features/share-links
     linkText: 공유 링크
   - title: Telegram에서 답하기
     details: 방문자의 메시지가 내 Telegram 그룹에 도착합니다. 직접 답하거나, 카운트다운 뒤 AI가 답하게 할 수 있습니다.
-    link: /features/telegram
+    link: /ko/features/telegram
     linkText: Telegram
   - title: 어떤 모델이든, 어떤 MCP 서버든
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… 그리고 Streamable HTTP나 stdio로 쓰는 MCP 도구.
-    link: /features/mcp
+    link: /ko/features/mcp
     linkText: MCP 도구
   - title: 숨기는 것 없음
     details: 모델에 보낸 정확한 JSON을 한 번의 클릭으로 볼 수 있습니다. 크기, 기록 예산, 사용한 토큰 수도 함께 나옵니다.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /ko/guide/getting-started#what-s-in-the-window
     linkText: 창 안의 내용
   - title: 작은 실행 파일 하나
     details: 웹 UI가 들어 있는 Rust 서버, macOS·Windows·Linux용 데스크톱 앱, Homebrew, 그리고 Docker 이미지.
-    link: /guide/getting-started
+    link: /ko/guide/getting-started
     linkText: 설치
 ---
 

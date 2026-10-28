@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: Empezar
-      link: /guide/getting-started
+      link: /es/guide/getting-started
     - theme: alt
       text: Descargar la app
-      link: /guide/desktop
+      link: /es/guide/desktop
     - theme: alt
       text: Cómo funciona
-      link: /features/how-it-works
+      link: /es/features/how-it-works
 
 features:
   - title: Su estilo, no solo sus palabras
     details: Un perfil de estilo de toda la exportación, y cada burbuja, sticker, GIF, respuesta y reacción se reproduce ante el modelo como una llamada a herramienta.
-    link: /features/how-it-works
+    link: /es/features/how-it-works
     linkText: Cómo funciona
   - title: Privado, y sin conexión si quieres
     details: Los chats se quedan en tu carpeta de datos. Con un modelo local y el modo sin conexión activado, la app rechaza cada solicitud que saldría de tu ordenador.
-    link: /guide/offline
+    link: /es/guide/offline
     linkText: Sin conexión y privacidad
   - title: Años de chat, gigabytes de medios
     details: Importa más de 120.000 mensajes y 30.000 archivos con progreso en vivo. Una reimportación se detecta por los mensajes, antes de subir ningún medio.
-    link: /guide/export#large-exports
+    link: /es/guide/export#large-exports
     linkText: Exportaciones grandes
   - title: Fotos, stickers y voz
     details: Una biblioteca de medios que describe lo enviado y transcribe la voz, en el orden que elijas, y que puedes detener en cualquier momento.
-    link: /features/media
+    link: /es/features/media
     linkText: Fotos y voz
   - title: Enlaces para compartir
     details: Deja que un amigo hable con el personaje en /s/nombre, con PIN y límites, en tu Wi‑Fi o en nombre.iroof.top.
-    link: /features/share-links
+    link: /es/features/share-links
     linkText: Enlaces para compartir
   - title: Responder desde Telegram
     details: Los mensajes de los visitantes llegan a tu grupo de Telegram. Responde tú, o deja que la IA conteste tras una cuenta atrás.
-    link: /features/telegram
+    link: /es/features/telegram
     linkText: Telegram
   - title: Cualquier modelo, cualquier servidor MCP
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… y herramientas MCP por Streamable HTTP o stdio.
-    link: /features/mcp
+    link: /es/features/mcp
     linkText: Herramientas MCP
   - title: Nada oculto
     details: El JSON exacto que se envía al modelo está a un clic, con su tamaño, el presupuesto del historial y los tokens usados.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /es/guide/getting-started#what-s-in-the-window
     linkText: Qué hay en la ventana
   - title: Un binario pequeño
     details: Un servidor en Rust con la interfaz web dentro, apps de escritorio para macOS, Windows y Linux, Homebrew y una imagen de Docker.
-    link: /guide/getting-started
+    link: /es/guide/getting-started
     linkText: Instalar
 ---
 

@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: Loslegen
-      link: /guide/getting-started
+      link: /de/guide/getting-started
     - theme: alt
       text: App herunterladen
-      link: /guide/desktop
+      link: /de/guide/desktop
     - theme: alt
       text: So funktioniert es
-      link: /features/how-it-works
+      link: /de/features/how-it-works
 
 features:
   - title: Sein Stil, nicht nur seine Worte
     details: Ein Stilprofil aus dem ganzen Export, und jede Sprechblase, jeder Sticker, GIF, jede Antwort und Reaktion wird dem Modell als Werkzeugaufruf erneut vorgespielt.
-    link: /features/how-it-works
+    link: /de/features/how-it-works
     linkText: So funktioniert es
   - title: Privat, und auf Wunsch offline
     details: Chats bleiben in deinem Datenordner. Mit einem lokalen Modell und eingeschaltetem Offline-Modus lehnt die App jede Anfrage ab, die deinen Computer verlassen würde.
-    link: /guide/offline
+    link: /de/guide/offline
     linkText: Offline & Datenschutz
   - title: Jahre an Chats, Gigabyte an Medien
     details: Über 120.000 Nachrichten und 30.000 Dateien werden mit Live-Fortschritt importiert. Ein erneuter Import wird anhand der Nachrichten erkannt, bevor Medien hochgeladen werden.
-    link: /guide/export#large-exports
+    link: /de/guide/export#large-exports
     linkText: Große Exporte
   - title: Fotos, Sticker und Sprache
     details: Eine Medienbibliothek, die Gesendetes beschreibt und Sprachnachrichten transkribiert, in der Reihenfolge, die du wählst, und jederzeit stoppbar.
-    link: /features/media
+    link: /de/features/media
     linkText: Fotos & Sprache
   - title: Freigabelinks
     details: Lass einen Freund unter /s/name mit der Persona sprechen, mit PIN und Grenzen, im WLAN oder unter name.iroof.top.
-    link: /features/share-links
+    link: /de/features/share-links
     linkText: Freigabelinks
   - title: Antworten aus Telegram
     details: Nachrichten von Besuchern landen in deiner Telegram-Gruppe. Antworte selbst, oder lass die KI nach einem Countdown antworten.
-    link: /features/telegram
+    link: /de/features/telegram
     linkText: Telegram
   - title: Jedes Modell, jeder MCP-Server
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… dazu MCP-Werkzeuge über Streamable HTTP oder stdio.
-    link: /features/mcp
+    link: /de/features/mcp
     linkText: MCP-Werkzeuge
   - title: Nichts verborgen
     details: Das genaue JSON an das Modell ist einen Klick entfernt, mit Größe, Verlaufsbudget und verbrauchten Tokens.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /de/guide/getting-started#what-s-in-the-window
     linkText: Was im Fenster steht
   - title: Eine kleine Binärdatei
     details: Ein Rust-Server mit eingebauter Weboberfläche, Desktop-Apps für macOS, Windows und Linux, Homebrew und ein Docker-Image.
-    link: /guide/getting-started
+    link: /de/guide/getting-started
     linkText: Installieren
 ---
 

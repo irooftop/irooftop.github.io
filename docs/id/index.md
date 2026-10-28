@@ -8,50 +8,50 @@ hero:
   actions:
     - theme: brand
       text: Mulai
-      link: /guide/getting-started
+      link: /id/guide/getting-started
     - theme: alt
       text: Unduh aplikasi
-      link: /guide/desktop
+      link: /id/guide/desktop
     - theme: alt
       text: Cara kerjanya
-      link: /features/how-it-works
+      link: /id/features/how-it-works
 
 features:
   - title: Gayanya, bukan hanya kata-katanya
     details: Profil gaya dari seluruh ekspor, dan setiap balon, stiker, GIF, balasan, dan reaksi diputar ulang ke model sebagai pemanggilan alat.
-    link: /features/how-it-works
+    link: /id/features/how-it-works
     linkText: Cara kerjanya
   - title: Pribadi, dan offline jika mau
     details: Chat tetap berada di folder datamu. Dengan model lokal dan mode offline aktif, aplikasi menolak setiap permintaan yang akan keluar dari komputermu.
-    link: /guide/offline
+    link: /id/guide/offline
     linkText: Offline & privasi
   - title: Bertahun-tahun chat, gigabyte media
     details: Lebih dari 120.000 pesan dan 30.000 file diimpor dengan progres langsung. Impor ulang dikenali dari pesannya, sebelum media apa pun diunggah.
-    link: /guide/export#large-exports
+    link: /id/guide/export#large-exports
     linkText: Ekspor besar
   - title: Foto, stiker, dan suara
     details: Pustaka media yang mendeskripsikan apa yang dikirim dan mentranskripsikan suara, sesuai urutan yang kamu pilih, dan bisa dihentikan kapan saja.
-    link: /features/media
+    link: /id/features/media
     linkText: Foto & suara
   - title: Tautan berbagi
     details: Biarkan teman berbicara dengan persona di /s/nama, dengan PIN dan batasan, di Wi‑Fi-mu atau di nama.iroof.top.
-    link: /features/share-links
+    link: /id/features/share-links
     linkText: Tautan berbagi
   - title: Balas dari Telegram
     details: Pesan pengunjung masuk ke grup Telegram-mu. Balas sendiri, atau biarkan AI menjawab setelah hitung mundur.
-    link: /features/telegram
+    link: /id/features/telegram
     linkText: Telegram
   - title: Model apa pun, server MCP apa pun
     details: OpenAI, OpenRouter, Gemini, Ollama, LM Studio, llama.cpp… plus alat MCP lewat Streamable HTTP atau stdio.
-    link: /features/mcp
+    link: /id/features/mcp
     linkText: Alat MCP
   - title: Tidak ada yang disembunyikan
     details: JSON persis yang dikirim ke model tersedia dengan satu klik, lengkap dengan ukurannya, anggaran riwayat, dan token yang dipakai.
-    link: /guide/getting-started#what-s-in-the-window
+    link: /id/guide/getting-started#what-s-in-the-window
     linkText: Isi jendela konteks
   - title: Satu biner kecil
     details: Server Rust dengan antarmuka web di dalamnya, aplikasi desktop untuk macOS, Windows, dan Linux, Homebrew, dan image Docker.
-    link: /guide/getting-started
+    link: /id/guide/getting-started
     linkText: Pasang
 ---
 
