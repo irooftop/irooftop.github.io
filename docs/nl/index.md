@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Dan drie stappen: **[exporteer een chat](/guide/export)** uit Telegram Desktop of WhatsApp, **sleep** de map, het `.zip`- of `.txt`-bestand op de pagina en druk op **New chat** om te kiezen wie de AI speelt: de ander, of jijzelf.
+Dan drie stappen: **[exporteer een chat](/nl/guide/export)** uit Telegram Desktop of WhatsApp, **sleep** de map, het `.zip`- of `.txt`-bestand op de pagina en druk op **New chat** om te kiezen wie de AI speelt: de ander, of jijzelf.
 Geen eigen chat bij de hand? Probeer de fictieve: `rooftop --import ./examples/telegram`.
 (De knoppen van de app staan in het Engels, net als de app zelf.)
 
@@ -106,7 +106,7 @@ Geen eigen chat bij de hand? Probeer de fictieve: `rooftop --import ./examples/t
 
 </div>
 
-De export wordt één keer op je eigen computer gelezen. Bij elk antwoord krijgt het model een systeemprompt met het stijlprofiel, je notities en de mediabeschrijvingen, daarna het meest recente deel van de chat dat past in het [geschiedenisbudget](/reference/configuration#settings-only). Oudere delen worden samengevat in een korte herinnering, en de persona kan die nog steeds doorzoeken. Het model antwoordt met toolaanroepen (`send_message`, `send_sticker`, `react`…), die bubbels, stickers en reacties worden. [Meer →](/features/how-it-works)
+De export wordt één keer op je eigen computer gelezen. Bij elk antwoord krijgt het model een systeemprompt met het stijlprofiel, je notities en de mediabeschrijvingen, daarna het meest recente deel van de chat dat past in het [geschiedenisbudget](/nl/reference/configuration#settings-only). Oudere delen worden samengevat in een korte herinnering, en de persona kan die nog steeds doorzoeken. Het model antwoordt met toolaanroepen (`send_message`, `send_sticker`, `react`…), die bubbels, stickers en reacties worden. [Meer →](/nl/features/how-it-works)
 
 ## Waar je chat naartoe gaat
 
@@ -115,7 +115,7 @@ De export wordt één keer op je eigen computer gelezen. Bij elk antwoord krijgt
 | Importeren, stijlprofiel, zoeken, opslag | geen: alles gebeurt op je eigen computer |
 | Eén antwoord, een geheugensamenvatting | alleen het modeleindpunt dat je kiest, en niets anders |
 | Media beschrijven, spraak transcriberen | het mediamodel, alleen als je op **Describe** drukt |
-| Deellinks via internet, Telegram | alleen als je ze aanzet; de [offlinemodus](/guide/offline) zet ze uit |
+| Deellinks via internet, Telegram | alleen als je ze aanzet; de [offlinemodus](/nl/guide/offline) zet ze uit |
 
 ## Vragen
 
@@ -132,7 +132,7 @@ Nee. Exports met meer dan 120.000 berichten en 13 GB media importeren prima, van
 :::
 
 ::: details Kan een vriend met de persona praten?
-Ja, met een [deellink](/features/share-links): op je wifi, of via internet op `naam.iroof.top`, met pincode en berichtlimieten. Bezoekers zien alleen de chat: geen instellingen, notities, prompts of andere chats.
+Ja, met een [deellink](/nl/features/share-links): op je wifi, of via internet op `naam.iroof.top`, met pincode en berichtlimieten. Bezoekers zien alleen de chat: geen instellingen, notities, prompts of andere chats.
 :::
 
 ::: tip Een opmerking over zorg

@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Luego, tres pasos: **[exporta un chat](/guide/export)** desde Telegram Desktop o WhatsApp, **arrastra** la carpeta, el `.zip`
+Luego, tres pasos: **[exporta un chat](/es/guide/export)** desde Telegram Desktop o WhatsApp, **arrastra** la carpeta, el `.zip`
 o el `.txt` a la página y pulsa **New chat** para elegir quién hace de IA: la otra persona, o tú mismo.
 ¿No tienes un chat a mano? Prueba los ficticios: `rooftop --import ./examples/telegram`.
 (Los nombres de los botones de la app están en inglés, como la propia app.)
@@ -109,8 +109,8 @@ o el `.txt` a la página y pulsa **New chat** para elegir quién hace de IA: la 
 
 El export se lee una sola vez, en tu ordenador. En cada respuesta el modelo recibe un prompt del sistema con el perfil de
 estilo, tus notas y las descripciones de los medios, y después la parte más reciente del chat que cabe en el
-[presupuesto de historial](/reference/configuration#settings-only). Las partes antiguas se pliegan en un resumen breve, y el
-personaje sigue pudiendo buscarlas. El modelo responde con llamadas a herramientas (`send_message`, `send_sticker`, `react`…), que se convierten en burbujas, stickers y reacciones. [Más →](/features/how-it-works)
+[presupuesto de historial](/es/reference/configuration#settings-only). Las partes antiguas se pliegan en un resumen breve, y el
+personaje sigue pudiendo buscarlas. El modelo responde con llamadas a herramientas (`send_message`, `send_sticker`, `react`…), que se convierten en burbujas, stickers y reacciones. [Más →](/es/features/how-it-works)
 
 ## Adónde va tu chat
 
@@ -119,7 +119,7 @@ personaje sigue pudiendo buscarlas. El modelo responde con llamadas a herramient
 | Importar, el perfil de estilo, la búsqueda y el almacenamiento | ninguna: todo ocurre en tu ordenador |
 | Una respuesta, un resumen de memoria | el endpoint del modelo que elijas, y nada más |
 | Describir medios, transcribir voz | el modelo de medios, solo cuando pulsas **Describe** |
-| Enlaces para compartir por internet, Telegram | solo si los activas; el [modo sin conexión](/guide/offline) los desactiva |
+| Enlaces para compartir por internet, Telegram | solo si los activas; el [modo sin conexión](/es/guide/offline) los desactiva |
 
 ## Preguntas
 
@@ -136,7 +136,7 @@ No. Las exportaciones de más de 120.000 mensajes y 13 GB de medios se importan 
 :::
 
 ::: details ¿Puede un amigo hablar con el personaje?
-Sí, con un [enlace para compartir](/features/share-links): en tu Wi‑Fi, o por internet en `nombre.iroof.top`, con PIN y límites de mensajes. Los visitantes solo ven el chat: nada de ajustes, notas, prompts ni otros chats.
+Sí, con un [enlace para compartir](/es/features/share-links): en tu Wi‑Fi, o por internet en `nombre.iroof.top`, con PIN y límites de mensajes. Los visitantes solo ven el chat: nada de ajustes, notas, prompts ni otros chats.
 :::
 
 ::: tip Una nota sobre el cuidado

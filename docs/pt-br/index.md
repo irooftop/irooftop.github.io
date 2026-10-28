@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Depois, três passos: **[exporte uma conversa](/guide/export)** do Telegram Desktop ou do WhatsApp, **arraste** a pasta, o `.zip` ou o `.txt` para a página e clique em **New chat** para escolher quem faz a IA: a outra pessoa, ou você mesmo.
+Depois, três passos: **[exporte uma conversa](/pt-br/guide/export)** do Telegram Desktop ou do WhatsApp, **arraste** a pasta, o `.zip` ou o `.txt` para a página e clique em **New chat** para escolher quem faz a IA: a outra pessoa, ou você mesmo.
 Não tem uma conversa à mão? Experimente as fictícias: `rooftop --import ./examples/telegram`.
 (Os nomes dos botões do app estão em inglês, como o próprio app.)
 
@@ -106,7 +106,7 @@ Não tem uma conversa à mão? Experimente as fictícias: `rooftop --import ./ex
 
 </div>
 
-A exportação é lida uma vez, no seu computador. A cada resposta, o modelo recebe um prompt de sistema com o perfil de estilo, as suas notas e as descrições das mídias, e depois a parte mais recente da conversa que cabe no [orçamento do histórico](/reference/configuration#settings-only). As partes antigas são resumidas numa memória curta, e a persona ainda consegue buscá-las. O modelo responde com chamadas de ferramenta (`send_message`, `send_sticker`, `react`…), que viram bolhas, figurinhas e reações. [Mais →](/features/how-it-works)
+A exportação é lida uma vez, no seu computador. A cada resposta, o modelo recebe um prompt de sistema com o perfil de estilo, as suas notas e as descrições das mídias, e depois a parte mais recente da conversa que cabe no [orçamento do histórico](/pt-br/reference/configuration#settings-only). As partes antigas são resumidas numa memória curta, e a persona ainda consegue buscá-las. O modelo responde com chamadas de ferramenta (`send_message`, `send_sticker`, `react`…), que viram bolhas, figurinhas e reações. [Mais →](/pt-br/features/how-it-works)
 
 ## Para onde vai a sua conversa
 
@@ -115,7 +115,7 @@ A exportação é lida uma vez, no seu computador. A cada resposta, o modelo rec
 | Importação, perfil de estilo, busca e armazenamento | nenhuma: tudo acontece no seu computador |
 | Uma resposta, um resumo de memória | o endpoint do modelo que você escolher, e mais nada |
 | Descrever mídias, transcrever voz | o modelo de mídia, só quando você clica em **Describe** |
-| Links de compartilhamento pela internet, Telegram | só se você os ativar; o [modo offline](/guide/offline) os desliga |
+| Links de compartilhamento pela internet, Telegram | só se você os ativar; o [modo offline](/pt-br/guide/offline) os desliga |
 
 ## Perguntas
 
@@ -132,7 +132,7 @@ Não. Exportações com mais de 120.000 mensagens e 13 GB de mídia são importa
 :::
 
 ::: details Um amigo pode conversar com a persona?
-Pode, com um [link de compartilhamento](/features/share-links): no seu Wi‑Fi, ou pela internet em `nome.iroof.top`, com PIN e limites de mensagens. Os visitantes veem só a conversa: nada de configurações, notas, prompts ou outras conversas.
+Pode, com um [link de compartilhamento](/pt-br/features/share-links): no seu Wi‑Fi, ou pela internet em `nome.iroof.top`, com PIN e limites de mensagens. Os visitantes veem só a conversa: nada de configurações, notas, prompts ou outras conversas.
 :::
 
 ::: tip Uma nota sobre cuidado

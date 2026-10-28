@@ -21,12 +21,12 @@ function ui(values: string[], where: string): UI {
 }
 
 // The theme settings that carry text: nav, sidebar, labels, search. Links stay the same in every language.
-function chrome(t: UI) {
+function chrome(t: UI, base = "") {
   return {
     nav: [
-      { text: t.guide, link: "/guide/getting-started", activeMatch: "/guide/" },
-      { text: t.features, link: "/features/how-it-works", activeMatch: "/features/" },
-      { text: t.reference, link: "/reference/configuration", activeMatch: "/reference/" },
+      { text: t.guide, link: base + "/guide/getting-started", activeMatch: base + "/guide/" },
+      { text: t.features, link: base + "/features/how-it-works", activeMatch: base + "/features/" },
+      { text: t.reference, link: base + "/reference/configuration", activeMatch: base + "/reference/" },
       {
         text: `v${version}`,
         items: [
@@ -39,32 +39,32 @@ function chrome(t: UI) {
       {
         text: t.guide,
         items: [
-          { text: t.gettingStarted, link: "/guide/getting-started" },
-          { text: t.offline, link: "/guide/offline" },
-          { text: t.exportChat, link: "/guide/export" },
-          { text: t.desktop, link: "/guide/desktop" },
-          { text: t.unsigned, link: "/guide/unsigned-apps" },
-          { text: t.docker, link: "/guide/docker" },
+          { text: t.gettingStarted, link: base + "/guide/getting-started" },
+          { text: t.offline, link: base + "/guide/offline" },
+          { text: t.exportChat, link: base + "/guide/export" },
+          { text: t.desktop, link: base + "/guide/desktop" },
+          { text: t.unsigned, link: base + "/guide/unsigned-apps" },
+          { text: t.docker, link: base + "/guide/docker" },
         ],
       },
       {
         text: t.features,
         items: [
-          { text: t.howItWorks, link: "/features/how-it-works" },
-          { text: t.shareLinks, link: "/features/share-links" },
-          { text: t.telegram, link: "/features/telegram" },
-          { text: t.media, link: "/features/media" },
-          { text: t.mcp, link: "/features/mcp" },
+          { text: t.howItWorks, link: base + "/features/how-it-works" },
+          { text: t.shareLinks, link: base + "/features/share-links" },
+          { text: t.telegram, link: base + "/features/telegram" },
+          { text: t.media, link: base + "/features/media" },
+          { text: t.mcp, link: base + "/features/mcp" },
         ],
       },
       {
         text: t.reference,
         items: [
-          { text: t.configuration, link: "/reference/configuration" },
-          { text: t.cli, link: "/reference/cli" },
-          { text: t.httpApi, link: "/reference/http-api" },
-          { text: t.relayHub, link: "/reference/relay-hub" },
-          { text: t.development, link: "/reference/development" },
+          { text: t.configuration, link: base + "/reference/configuration" },
+          { text: t.cli, link: base + "/reference/cli" },
+          { text: t.httpApi, link: base + "/reference/http-api" },
+          { text: t.relayHub, link: base + "/reference/relay-hub" },
+          { text: t.development, link: base + "/reference/development" },
         ],
       },
     ],
@@ -105,7 +105,7 @@ function locale(l: Locale) {
       dir: l.rtl ? "rtl" : "ltr",
       description: l.description,
       markdown: { codeCopyButton: { tooltipText: t.copyTooltip, copiedText: t.copied } },
-      themeConfig: chrome(t),
+      themeConfig: chrome(t, `/${l.dir}`),
     },
   ] as const;
 }

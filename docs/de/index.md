@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Dann drei Schritte: **[Chat exportieren](/guide/export)** aus Telegram Desktop oder WhatsApp, Ordner, `.zip` oder `.txt` auf die Seite **ziehen** und **New chat** drücken, um zu wählen, wer die KI spielt: die andere Person oder du selbst.
+Dann drei Schritte: **[Chat exportieren](/de/guide/export)** aus Telegram Desktop oder WhatsApp, Ordner, `.zip` oder `.txt` auf die Seite **ziehen** und **New chat** drücken, um zu wählen, wer die KI spielt: die andere Person oder du selbst.
 Kein eigener Chat zur Hand? Probiere die fiktiven aus: `rooftop --import ./examples/telegram`.
 (Die Beschriftungen der App sind auf Englisch, wie die App selbst.)
 
@@ -106,7 +106,7 @@ Kein eigener Chat zur Hand? Probiere die fiktiven aus: `rooftop --import ./examp
 
 </div>
 
-Der Export wird einmal auf deinem Computer gelesen. Bei jeder Antwort bekommt das Modell einen Systemprompt mit dem Stilprofil, deinen Notizen und den Medienbeschreibungen, dann den neuesten Teil des Chats, der ins [Verlaufsbudget](/reference/configuration#settings-only) passt. Ältere Teile werden zu einer kurzen Erinnerung zusammengefasst, und die Persona kann sie weiterhin durchsuchen. Das Modell antwortet mit Werkzeugaufrufen (`send_message`, `send_sticker`, `react`…), die zu Sprechblasen, Stickern und Reaktionen werden. [Mehr →](/features/how-it-works)
+Der Export wird einmal auf deinem Computer gelesen. Bei jeder Antwort bekommt das Modell einen Systemprompt mit dem Stilprofil, deinen Notizen und den Medienbeschreibungen, dann den neuesten Teil des Chats, der ins [Verlaufsbudget](/de/reference/configuration#settings-only) passt. Ältere Teile werden zu einer kurzen Erinnerung zusammengefasst, und die Persona kann sie weiterhin durchsuchen. Das Modell antwortet mit Werkzeugaufrufen (`send_message`, `send_sticker`, `react`…), die zu Sprechblasen, Stickern und Reaktionen werden. [Mehr →](/de/features/how-it-works)
 
 ## Wohin dein Chat geht
 
@@ -115,7 +115,7 @@ Der Export wird einmal auf deinem Computer gelesen. Bei jeder Antwort bekommt da
 | Import, Stilprofil, Suche, Speicher | keins: alles passiert auf deinem Computer |
 | Eine Antwort, eine Speicherzusammenfassung | der Modellendpunkt deiner Wahl, und sonst nichts |
 | Medien beschreiben, Sprache transkribieren | das Medienmodell, nur wenn du **Describe** drückst |
-| Freigabelinks über das Internet, Telegram | nur wenn du sie einschaltest; der [Offline-Modus](/guide/offline) schaltet sie ab |
+| Freigabelinks über das Internet, Telegram | nur wenn du sie einschaltest; der [Offline-Modus](/de/guide/offline) schaltet sie ab |
 
 ## Fragen
 
@@ -132,7 +132,7 @@ Nein. Exporte mit über 120.000 Nachrichten und 13 GB Medien lassen sich importi
 :::
 
 ::: details Kann ein Freund mit der Persona sprechen?
-Ja, mit einem [Freigabelink](/features/share-links): im WLAN oder über das Internet unter `name.iroof.top`, mit PIN und Nachrichtenlimits. Besucher sehen nur den Chat: keine Einstellungen, Notizen, Prompts oder anderen Chats.
+Ja, mit einem [Freigabelink](/de/features/share-links): im WLAN oder über das Internet unter `name.iroof.top`, mit PIN und Nachrichtenlimits. Besucher sehen nur den Chat: keine Einstellungen, Notizen, Prompts oder anderen Chats.
 :::
 
 ::: tip Ein Hinweis zur Fürsorge

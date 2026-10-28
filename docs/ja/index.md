@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-あとは三つのステップです。Telegram Desktop か WhatsApp から **[チャットを書き出し](/guide/export)**、フォルダ、`.zip`、`.txt` のいずれかをページに**ドロップ**して、**New chat** で AI の役を選びます。相手役にするか、自分にするかです。
+あとは三つのステップです。Telegram Desktop か WhatsApp から **[チャットを書き出し](/ja/guide/export)**、フォルダ、`.zip`、`.txt` のいずれかをページに**ドロップ**して、**New chat** で AI の役を選びます。相手役にするか、自分にするかです。
 手元にチャットがなければ、架空のサンプルを試せます: `rooftop --import ./examples/telegram`。
 （アプリのボタン名は英語のままです。アプリ自体が英語のためです。）
 
@@ -106,7 +106,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 </div>
 
-書き出しは、あなたのパソコンで一度だけ読み込まれます。返信ごとに、モデルはスタイルプロフィール、メモ、メディアの説明を含むシステムプロンプトを受け取り、続いて[履歴の予算](/reference/configuration#settings-only)に収まる最新のチャット部分を受け取ります。古い部分は短い記憶にまとめられ、ペルソナはそれも検索できます。モデルはツール呼び出し（`send_message`、`send_sticker`、`react`…）で応答し、それが吹き出し、スタンプ、リアクションになります。[詳しく →](/features/how-it-works)
+書き出しは、あなたのパソコンで一度だけ読み込まれます。返信ごとに、モデルはスタイルプロフィール、メモ、メディアの説明を含むシステムプロンプトを受け取り、続いて[履歴の予算](/ja/reference/configuration#settings-only)に収まる最新のチャット部分を受け取ります。古い部分は短い記憶にまとめられ、ペルソナはそれも検索できます。モデルはツール呼び出し（`send_message`、`send_sticker`、`react`…）で応答し、それが吹き出し、スタンプ、リアクションになります。[詳しく →](/ja/features/how-it-works)
 
 ## チャットの行き先
 
@@ -115,7 +115,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 | 取り込み、スタイルプロフィール、検索、保存 | なし：すべてあなたのパソコンで行われます |
 | 一回の返信、記憶の要約 | 選んだモデルのエンドポイントだけ |
 | メディアの説明、音声の文字起こし | メディアモデル。**Describe** を押したときだけ |
-| インターネット経由の共有リンク、Telegram | 有効にした場合のみ。[オフラインモード](/guide/offline)でオフにできます |
+| インターネット経由の共有リンク、Telegram | 有効にした場合のみ。[オフラインモード](/ja/guide/offline)でオフにできます |
 
 ## よくある質問
 
@@ -132,7 +132,7 @@ OpenAI 互換の `/chat/completions` エンドポイントの背後にある、*
 :::
 
 ::: details 友だちはペルソナと話せますか？
-はい。[共有リンク](/features/share-links)で可能です。Wi‑Fi 上、またはインターネット上の `name.iroof.top` から、PIN とメッセージ数の上限つきで使えます。訪問者が見られるのはチャットだけです。設定、メモ、プロンプト、ほかのチャットは見えません。
+はい。[共有リンク](/ja/features/share-links)で可能です。Wi‑Fi 上、またはインターネット上の `name.iroof.top` から、PIN とメッセージ数の上限つきで使えます。訪問者が見られるのはチャットだけです。設定、メモ、プロンプト、ほかのチャットは見えません。
 :::
 
 ::: tip 大切にすることについて

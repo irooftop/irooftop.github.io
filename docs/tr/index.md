@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Sonra üç adım: Telegram Desktop ya da WhatsApp'tan **[sohbeti dışa aktar](/guide/export)**, klasörü, `.zip`'i ya da `.txt`'yi sayfaya **sürükle** ve yapay zekâyı kimin oynayacağını seçmek için **New chat**'e bas: diğer kişi mi, yoksa sen mi.
+Sonra üç adım: Telegram Desktop ya da WhatsApp'tan **[sohbeti dışa aktar](/tr/guide/export)**, klasörü, `.zip`'i ya da `.txt`'yi sayfaya **sürükle** ve yapay zekâyı kimin oynayacağını seçmek için **New chat**'e bas: diğer kişi mi, yoksa sen mi.
 Elinde sohbet yok mu? Kurgusal olanları dene: `rooftop --import ./examples/telegram`.
 (Uygulamanın düğme adları, uygulamanın kendisi gibi İngilizce.)
 
@@ -106,7 +106,7 @@ Elinde sohbet yok mu? Kurgusal olanları dene: `rooftop --import ./examples/tele
 
 </div>
 
-Dışa aktarım bilgisayarında bir kez okunur. Her yanıtta model; stil profilini, notlarını ve medya açıklamalarını içeren bir sistem istemi alır, ardından [geçmiş bütçesine](/reference/configuration#settings-only) sığan sohbetin en yeni kısmını alır. Eski kısımlar kısa bir belleğe sıkıştırılır ve karakter bunları yine arayabilir. Model, balonlara, çıkartmalara ve tepkilere dönüşen araç çağrılarıyla (`send_message`, `send_sticker`, `react`…) yanıt verir. [Devamı →](/features/how-it-works)
+Dışa aktarım bilgisayarında bir kez okunur. Her yanıtta model; stil profilini, notlarını ve medya açıklamalarını içeren bir sistem istemi alır, ardından [geçmiş bütçesine](/tr/reference/configuration#settings-only) sığan sohbetin en yeni kısmını alır. Eski kısımlar kısa bir belleğe sıkıştırılır ve karakter bunları yine arayabilir. Model, balonlara, çıkartmalara ve tepkilere dönüşen araç çağrılarıyla (`send_message`, `send_sticker`, `react`…) yanıt verir. [Devamı →](/tr/features/how-it-works)
 
 ## Sohbetin nereye gider
 
@@ -115,7 +115,7 @@ Dışa aktarım bilgisayarında bir kez okunur. Her yanıtta model; stil profili
 | İçe aktarma, stil profili, arama, depolama | yok: hepsi bilgisayarında olur |
 | Bir yanıt, bellek özeti | seçtiğin model uç noktası, başka hiçbir şey |
 | Medyayı açıklama, sesi yazıya dökme | medya modeli, yalnızca **Describe**'a bastığında |
-| İnternet üzerinden paylaşım bağlantıları, Telegram | yalnızca açarsan; [çevrimdışı mod](/guide/offline) bunları kapatır |
+| İnternet üzerinden paylaşım bağlantıları, Telegram | yalnızca açarsan; [çevrimdışı mod](/tr/guide/offline) bunları kapatır |
 
 ## Sorular
 
@@ -132,7 +132,7 @@ Hayır. 120.000'den fazla mesaj ve 13 GB medya içeren dışa aktarımlar taray�
 :::
 
 ::: details Bir arkadaş karakterle konuşabilir mi?
-Evet, bir [paylaşım bağlantısıyla](/features/share-links): Wi‑Fi'nda ya da internet üzerinden `ad.iroof.top` adresinde, PIN ve mesaj sınırlarıyla. Ziyaretçiler yalnızca sohbeti görür: ayar, not, istem ya da diğer sohbetler görünmez.
+Evet, bir [paylaşım bağlantısıyla](/tr/features/share-links): Wi‑Fi'nda ya da internet üzerinden `ad.iroof.top` adresinde, PIN ve mesaj sınırlarıyla. Ziyaretçiler yalnızca sohbeti görür: ayar, not, istem ya da diğer sohbetler görünmez.
 :::
 
 ::: tip Özen hakkında bir not

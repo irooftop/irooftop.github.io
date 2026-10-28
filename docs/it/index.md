@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Poi tre passaggi: **[esporta una chat](/guide/export)** da Telegram Desktop o WhatsApp, **trascina** la cartella, lo `.zip` o il `.txt` nella pagina e premi **New chat** per scegliere chi fa l'IA: l'altra persona, o tu.
+Poi tre passaggi: **[esporta una chat](/it/guide/export)** da Telegram Desktop o WhatsApp, **trascina** la cartella, lo `.zip` o il `.txt` nella pagina e premi **New chat** per scegliere chi fa l'IA: l'altra persona, o tu.
 Non hai una chat a portata di mano? Prova quelle fittizie: `rooftop --import ./examples/telegram`.
 (I nomi dei pulsanti dell'app sono in inglese, come l'app stessa.)
 
@@ -106,7 +106,7 @@ Non hai una chat a portata di mano? Prova quelle fittizie: `rooftop --import ./e
 
 </div>
 
-L'esportazione viene letta una sola volta, sul tuo computer. A ogni risposta il modello riceve un prompt di sistema con il profilo di stile, le tue note e le descrizioni dei media, poi la parte più recente della chat che sta nel [budget della cronologia](/reference/configuration#settings-only). Le parti più vecchie vengono compresse in una memoria breve, e la persona può comunque cercarle. Il modello risponde con chiamate a strumenti (`send_message`, `send_sticker`, `react`…), che diventano bolle, sticker e reazioni. [Altro →](/features/how-it-works)
+L'esportazione viene letta una sola volta, sul tuo computer. A ogni risposta il modello riceve un prompt di sistema con il profilo di stile, le tue note e le descrizioni dei media, poi la parte più recente della chat che sta nel [budget della cronologia](/it/reference/configuration#settings-only). Le parti più vecchie vengono compresse in una memoria breve, e la persona può comunque cercarle. Il modello risponde con chiamate a strumenti (`send_message`, `send_sticker`, `react`…), che diventano bolle, sticker e reazioni. [Altro →](/it/features/how-it-works)
 
 ## Dove va la tua chat
 
@@ -115,7 +115,7 @@ L'esportazione viene letta una sola volta, sul tuo computer. A ogni risposta il 
 | Importazione, profilo di stile, ricerca, archiviazione | nessuna: tutto avviene sul tuo computer |
 | Una risposta, un riassunto della memoria | solo l'endpoint del modello che scegli |
 | Descrivere i media, trascrivere la voce | il modello dei media, solo quando premi **Describe** |
-| Link di condivisione via internet, Telegram | solo se li attivi; la [modalità offline](/guide/offline) li disattiva |
+| Link di condivisione via internet, Telegram | solo se li attivi; la [modalità offline](/it/guide/offline) li disattiva |
 
 ## Domande
 
@@ -132,7 +132,7 @@ No. Le esportazioni con più di 120.000 messaggi e 13 GB di media si importano s
 :::
 
 ::: details Un amico può parlare con la persona?
-Sì, con un [link di condivisione](/features/share-links): sul tuo Wi‑Fi, o via internet su `nome.iroof.top`, con PIN e limiti di messaggi. I visitatori vedono solo la chat: niente impostazioni, note, prompt o altre chat.
+Sì, con un [link di condivisione](/it/features/share-links): sul tuo Wi‑Fi, o via internet su `nome.iroof.top`, con PIN e limiti di messaggi. I visitatori vedono solo la chat: niente impostazioni, note, prompt o altre chat.
 :::
 
 ::: tip Una nota sulla cura

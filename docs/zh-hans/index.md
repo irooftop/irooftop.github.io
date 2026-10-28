@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-接下来三步：从 Telegram Desktop 或 WhatsApp **[导出聊天](/guide/export)**，把文件夹、`.zip` 或 `.txt` **拖到**页面上，然后点击 **New chat**，选择由谁扮演 AI：对方，或者你自己。
+接下来三步：从 Telegram Desktop 或 WhatsApp **[导出聊天](/zh-hans/guide/export)**，把文件夹、`.zip` 或 `.txt` **拖到**页面上，然后点击 **New chat**，选择由谁扮演 AI：对方，或者你自己。
 手边没有自己的聊天记录？可以试试虚构的示例：`rooftop --import ./examples/telegram`。
 （应用中的按钮名称保持英文，与应用本身一致。）
 
@@ -106,7 +106,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 </div>
 
-导出文件只在你的电脑上读取一次。每次回复时，模型会收到一段系统提示，其中包含风格档案、你的笔记和媒体描述，然后是能放进[历史预算](/reference/configuration#settings-only)的最近一段聊天。较早的部分会被压缩成一段简短的记忆，角色仍可以搜索它们。模型通过工具调用（`send_message`、`send_sticker`、`react`……）作答，这些调用会变成气泡、贴纸和回应。[更多 →](/features/how-it-works)
+导出文件只在你的电脑上读取一次。每次回复时，模型会收到一段系统提示，其中包含风格档案、你的笔记和媒体描述，然后是能放进[历史预算](/zh-hans/reference/configuration#settings-only)的最近一段聊天。较早的部分会被压缩成一段简短的记忆，角色仍可以搜索它们。模型通过工具调用（`send_message`、`send_sticker`、`react`……）作答，这些调用会变成气泡、贴纸和回应。[更多 →](/zh-hans/features/how-it-works)
 
 ## 你的聊天去向何处
 
@@ -115,7 +115,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 | 导入、风格档案、搜索、存储 | 无：全部在你的电脑上完成 |
 | 一次回复、记忆摘要 | 你选择的模型端点，仅此而已 |
 | 描述媒体、转写语音 | 媒体模型，仅在你点击 **Describe** 时使用 |
-| 通过互联网的分享链接、Telegram | 仅当你开启时；[离线模式](/guide/offline)会将它们关闭 |
+| 通过互联网的分享链接、Telegram | 仅当你开启时；[离线模式](/zh-hans/guide/offline)会将它们关闭 |
 
 ## 常见问题
 
@@ -132,7 +132,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 :::
 
 ::: details 朋友可以和角色聊天吗？
-可以，通过[分享链接](/features/share-links)：可在你的 Wi‑Fi 上使用，或通过互联网在 `name.iroof.top` 访问，并可设置 PIN 和消息限制。访客只能看到聊天：没有设置、笔记、提示词或其他聊天记录。
+可以，通过[分享链接](/zh-hans/features/share-links)：可在你的 Wi‑Fi 上使用，或通过互联网在 `name.iroof.top` 访问，并可设置 PIN 和消息限制。访客只能看到聊天：没有设置、笔记、提示词或其他聊天记录。
 :::
 
 ::: tip 关于照顾

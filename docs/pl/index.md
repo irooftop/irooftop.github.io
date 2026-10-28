@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Potem trzy kroki: **[wyeksportuj czat](/guide/export)** z Telegram Desktop lub WhatsAppa, **przeciągnij** folder, `.zip` albo `.txt` na stronę i naciśnij **New chat**, aby wybrać, kto gra AI: druga osoba czy Ty sam.
+Potem trzy kroki: **[wyeksportuj czat](/pl/guide/export)** z Telegram Desktop lub WhatsAppa, **przeciągnij** folder, `.zip` albo `.txt` na stronę i naciśnij **New chat**, aby wybrać, kto gra AI: druga osoba czy Ty sam.
 Nie masz pod ręką własnego czatu? Wypróbuj fikcyjne: `rooftop --import ./examples/telegram`.
 (Nazwy przycisków w aplikacji są po angielsku, tak jak sama aplikacja.)
 
@@ -106,7 +106,7 @@ Nie masz pod ręką własnego czatu? Wypróbuj fikcyjne: `rooftop --import ./exa
 
 </div>
 
-Eksport jest czytany raz, na Twoim komputerze. Przy każdej odpowiedzi model dostaje prompt systemowy z profilem stylu, Twoimi notatkami i opisami mediów, a potem najnowszą część czatu, która mieści się w [budżecie historii](/reference/configuration#settings-only). Starsze części są zwijane w krótką pamięć, a persona nadal może ich szukać. Model odpowiada wywołaniami narzędzi (`send_message`, `send_sticker`, `react`…), które stają się dymkami, naklejkami i reakcjami. [Więcej →](/features/how-it-works)
+Eksport jest czytany raz, na Twoim komputerze. Przy każdej odpowiedzi model dostaje prompt systemowy z profilem stylu, Twoimi notatkami i opisami mediów, a potem najnowszą część czatu, która mieści się w [budżecie historii](/pl/reference/configuration#settings-only). Starsze części są zwijane w krótką pamięć, a persona nadal może ich szukać. Model odpowiada wywołaniami narzędzi (`send_message`, `send_sticker`, `react`…), które stają się dymkami, naklejkami i reakcjami. [Więcej →](/pl/features/how-it-works)
 
 ## Dokąd trafia Twój czat
 
@@ -115,7 +115,7 @@ Eksport jest czytany raz, na Twoim komputerze. Przy każdej odpowiedzi model dos
 | Import, profil stylu, wyszukiwanie, przechowywanie | brak: wszystko dzieje się na Twoim komputerze |
 | Jedna odpowiedź, podsumowanie pamięci | wyłącznie endpoint modelu, który wybierzesz |
 | Opisywanie mediów, transkrypcja głosu | model mediów, tylko gdy naciśniesz **Describe** |
-| Linki udostępniania przez internet, Telegram | tylko jeśli je włączysz; [tryb offline](/guide/offline) je wyłącza |
+| Linki udostępniania przez internet, Telegram | tylko jeśli je włączysz; [tryb offline](/pl/guide/offline) je wyłącza |
 
 ## Pytania
 
@@ -132,7 +132,7 @@ Nie. Eksporty z ponad 120 000 wiadomości i 13 GB mediów importują się bez pr
 :::
 
 ::: details Czy przyjaciel może rozmawiać z personą?
-Tak, przez [link udostępniania](/features/share-links): w Twojej sieci Wi‑Fi albo przez internet pod `nazwa.iroof.top`, z PIN-em i limitami wiadomości. Odwiedzający widzą tylko czat: bez ustawień, notatek, promptów i innych czatów.
+Tak, przez [link udostępniania](/pl/features/share-links): w Twojej sieci Wi‑Fi albo przez internet pod `nazwa.iroof.top`, z PIN-em i limitami wiadomości. Odwiedzający widzą tylko czat: bez ustawień, notatek, promptów i innych czatów.
 :::
 
 ::: tip Słowo o trosce

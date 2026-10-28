@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Sau đó là ba bước: **[xuất đoạn chat](/guide/export)** từ Telegram Desktop hoặc WhatsApp, **kéo** thư mục, `.zip` hoặc `.txt` vào trang, rồi nhấn **New chat** để chọn ai sẽ đóng vai AI: người kia, hoặc chính bạn.
+Sau đó là ba bước: **[xuất đoạn chat](/vi/guide/export)** từ Telegram Desktop hoặc WhatsApp, **kéo** thư mục, `.zip` hoặc `.txt` vào trang, rồi nhấn **New chat** để chọn ai sẽ đóng vai AI: người kia, hoặc chính bạn.
 Chưa có đoạn chat nào? Hãy thử đoạn hư cấu: `rooftop --import ./examples/telegram`.
 (Tên nút trong ứng dụng là tiếng Anh, như chính ứng dụng.)
 
@@ -106,7 +106,7 @@ Chưa có đoạn chat nào? Hãy thử đoạn hư cấu: `rooftop --import ./e
 
 </div>
 
-Bản xuất được đọc một lần, trên máy tính của bạn. Mỗi câu trả lời, mô hình nhận một lời nhắc hệ thống có hồ sơ phong cách, ghi chú của bạn và mô tả đa phương tiện, rồi đến phần mới nhất của cuộc trò chuyện vừa khít [ngân sách lịch sử](/reference/configuration#settings-only). Các phần cũ được gom thành một ký ức ngắn, và nhân vật vẫn có thể tìm kiếm chúng. Mô hình trả lời bằng các lệnh gọi công cụ (`send_message`, `send_sticker`, `react`…), trở thành bong bóng, sticker và biểu cảm. [Xem thêm →](/features/how-it-works)
+Bản xuất được đọc một lần, trên máy tính của bạn. Mỗi câu trả lời, mô hình nhận một lời nhắc hệ thống có hồ sơ phong cách, ghi chú của bạn và mô tả đa phương tiện, rồi đến phần mới nhất của cuộc trò chuyện vừa khít [ngân sách lịch sử](/vi/reference/configuration#settings-only). Các phần cũ được gom thành một ký ức ngắn, và nhân vật vẫn có thể tìm kiếm chúng. Mô hình trả lời bằng các lệnh gọi công cụ (`send_message`, `send_sticker`, `react`…), trở thành bong bóng, sticker và biểu cảm. [Xem thêm →](/vi/features/how-it-works)
 
 ## Cuộc trò chuyện của bạn đi đâu
 
@@ -115,7 +115,7 @@ Bản xuất được đọc một lần, trên máy tính của bạn. Mỗi c�
 | Nhập dữ liệu, hồ sơ phong cách, tìm kiếm, lưu trữ | không có: mọi thứ diễn ra trên máy tính của bạn |
 | Một câu trả lời, tóm tắt bộ nhớ | điểm cuối mô hình bạn chọn, không gì khác |
 | Mô tả đa phương tiện, chuyển giọng nói thành chữ | mô hình đa phương tiện, chỉ khi bạn nhấn **Describe** |
-| Liên kết chia sẻ qua internet, Telegram | chỉ khi bạn bật; [chế độ ngoại tuyến](/guide/offline) sẽ tắt chúng |
+| Liên kết chia sẻ qua internet, Telegram | chỉ khi bạn bật; [chế độ ngoại tuyến](/vi/guide/offline) sẽ tắt chúng |
 
 ## Câu hỏi
 
@@ -132,7 +132,7 @@ Không. Bản xuất với hơn 120.000 tin nhắn và 13 GB đa phương tiện
 :::
 
 ::: details Bạn bè có thể trò chuyện với nhân vật không?
-Có, qua một [liên kết chia sẻ](/features/share-links): trên Wi‑Fi của bạn, hoặc qua internet tại `tên.iroof.top`, với mã PIN và giới hạn tin nhắn. Khách truy cập chỉ thấy cuộc trò chuyện: không có cài đặt, ghi chú, lời nhắc hay cuộc trò chuyện khác.
+Có, qua một [liên kết chia sẻ](/vi/features/share-links): trên Wi‑Fi của bạn, hoặc qua internet tại `tên.iroof.top`, với mã PIN và giới hạn tin nhắn. Khách truy cập chỉ thấy cuộc trò chuyện: không có cài đặt, ghi chú, lời nhắc hay cuộc trò chuyện khác.
 :::
 
 ::: tip Một lưu ý về sự quan tâm

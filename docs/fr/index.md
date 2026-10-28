@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Ensuite, trois étapes : **[exportez une conversation](/guide/export)** depuis Telegram Desktop ou WhatsApp, **déposez** le dossier, le `.zip` ou le `.txt` sur la page, puis appuyez sur **New chat** pour choisir qui joue l'IA : l'autre personne, ou vous-même.
+Ensuite, trois étapes : **[exportez une conversation](/fr/guide/export)** depuis Telegram Desktop ou WhatsApp, **déposez** le dossier, le `.zip` ou le `.txt` sur la page, puis appuyez sur **New chat** pour choisir qui joue l'IA : l'autre personne, ou vous-même.
 Pas de conversation sous la main ? Essayez les fictives : `rooftop --import ./examples/telegram`.
 (Les libellés de l'application sont en anglais, comme l'application elle-même.)
 
@@ -106,7 +106,7 @@ Pas de conversation sous la main ? Essayez les fictives : `rooftop --import ./ex
 
 </div>
 
-L'export est lu une seule fois, sur votre ordinateur. À chaque réponse, le modèle reçoit une invite système avec le profil de style, vos notes et les descriptions des médias, puis la partie la plus récente de la conversation qui tient dans le [budget d'historique](/reference/configuration#settings-only). Les parties anciennes sont résumées en une courte mémoire, que le personnage peut toujours consulter. Le modèle répond par des appels d'outils (`send_message`, `send_sticker`, `react`…), qui deviennent des bulles, des autocollants et des réactions. [Plus →](/features/how-it-works)
+L'export est lu une seule fois, sur votre ordinateur. À chaque réponse, le modèle reçoit une invite système avec le profil de style, vos notes et les descriptions des médias, puis la partie la plus récente de la conversation qui tient dans le [budget d'historique](/fr/reference/configuration#settings-only). Les parties anciennes sont résumées en une courte mémoire, que le personnage peut toujours consulter. Le modèle répond par des appels d'outils (`send_message`, `send_sticker`, `react`…), qui deviennent des bulles, des autocollants et des réactions. [Plus →](/fr/features/how-it-works)
 
 ## Où va votre conversation
 
@@ -115,7 +115,7 @@ L'export est lu une seule fois, sur votre ordinateur. À chaque réponse, le mod
 | Importation, profil de style, recherche, stockage | aucun : tout se passe sur votre ordinateur |
 | Une réponse, un résumé de mémoire | le point d'accès du modèle de votre choix, rien d'autre |
 | Décrire les médias, transcrire la voix | le modèle de médias, uniquement quand vous appuyez sur **Describe** |
-| Liens de partage sur Internet, Telegram | seulement si vous les activez ; le [mode hors ligne](/guide/offline) les coupe |
+| Liens de partage sur Internet, Telegram | seulement si vous les activez ; le [mode hors ligne](/fr/guide/offline) les coupe |
 
 ## Questions
 
@@ -132,7 +132,7 @@ Non. Les exports de plus de 120 000 messages et 13 Go de médias s'importent san
 :::
 
 ::: details Un ami peut-il parler au personnage ?
-Oui, avec un [lien de partage](/features/share-links) : sur votre Wi‑Fi, ou sur Internet à l'adresse `nom.iroof.top`, avec un PIN et des limites de messages. Les visiteurs ne voient que la conversation : ni réglages, ni notes, ni invites, ni autres conversations.
+Oui, avec un [lien de partage](/fr/features/share-links) : sur votre Wi‑Fi, ou sur Internet à l'adresse `nom.iroof.top`, avec un PIN et des limites de messages. Les visiteurs ne voient que la conversation : ni réglages, ni notes, ni invites, ni autres conversations.
 :::
 
 ::: tip Une note sur la bienveillance

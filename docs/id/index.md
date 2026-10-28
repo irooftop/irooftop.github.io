@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-Lalu tiga langkah: **[ekspor chat](/guide/export)** dari Telegram Desktop atau WhatsApp, **seret** folder, `.zip`, atau `.txt` ke halaman, lalu tekan **New chat** untuk memilih siapa yang memerankan AI: orang lain, atau dirimu sendiri.
+Lalu tiga langkah: **[ekspor chat](/id/guide/export)** dari Telegram Desktop atau WhatsApp, **seret** folder, `.zip`, atau `.txt` ke halaman, lalu tekan **New chat** untuk memilih siapa yang memerankan AI: orang lain, atau dirimu sendiri.
 Tidak punya chat sendiri? Coba yang fiktif: `rooftop --import ./examples/telegram`.
 (Label tombol di aplikasi berbahasa Inggris, seperti aplikasinya.)
 
@@ -106,7 +106,7 @@ Tidak punya chat sendiri? Coba yang fiktif: `rooftop --import ./examples/telegra
 
 </div>
 
-Ekspor dibaca sekali, di komputermu. Setiap balasan, model menerima prompt sistem berisi profil gaya, catatanmu, dan deskripsi media, lalu bagian chat terbaru yang muat dalam [anggaran riwayat](/reference/configuration#settings-only). Bagian yang lebih lama dilipat menjadi ingatan singkat, dan persona tetap bisa mencarinya. Model menjawab dengan pemanggilan alat (`send_message`, `send_sticker`, `react`…), yang menjadi balon, stiker, dan reaksi. [Selengkapnya →](/features/how-it-works)
+Ekspor dibaca sekali, di komputermu. Setiap balasan, model menerima prompt sistem berisi profil gaya, catatanmu, dan deskripsi media, lalu bagian chat terbaru yang muat dalam [anggaran riwayat](/id/reference/configuration#settings-only). Bagian yang lebih lama dilipat menjadi ingatan singkat, dan persona tetap bisa mencarinya. Model menjawab dengan pemanggilan alat (`send_message`, `send_sticker`, `react`…), yang menjadi balon, stiker, dan reaksi. [Selengkapnya →](/id/features/how-it-works)
 
 ## Ke mana chatmu pergi
 
@@ -115,7 +115,7 @@ Ekspor dibaca sekali, di komputermu. Setiap balasan, model menerima prompt siste
 | Impor, profil gaya, pencarian, penyimpanan | tidak ada: semuanya terjadi di komputermu |
 | Satu balasan, ringkasan memori | endpoint model yang kamu pilih, dan tidak ada yang lain |
 | Mendeskripsikan media, mentranskripsikan suara | model media, hanya saat kamu menekan **Describe** |
-| Tautan berbagi lewat internet, Telegram | hanya jika kamu mengaktifkannya; [mode offline](/guide/offline) mematikannya |
+| Tautan berbagi lewat internet, Telegram | hanya jika kamu mengaktifkannya; [mode offline](/id/guide/offline) mematikannya |
 
 ## Pertanyaan
 
@@ -132,7 +132,7 @@ Tidak. Ekspor dengan lebih dari 120.000 pesan dan 13 GB media bisa diimpor denga
 :::
 
 ::: details Bisakah teman berbicara dengan persona?
-Bisa, dengan [tautan berbagi](/features/share-links): di Wi‑Fi-mu, atau lewat internet di `nama.iroof.top`, dengan PIN dan batas pesan. Pengunjung hanya melihat chat: tidak ada pengaturan, catatan, prompt, atau chat lain.
+Bisa, dengan [tautan berbagi](/id/features/share-links): di Wi‑Fi-mu, atau lewat internet di `nama.iroof.top`, dengan PIN dan batas pesan. Pengunjung hanya melihat chat: tidak ada pengaturan, catatan, prompt, atau chat lain.
 :::
 
 ::: tip Catatan tentang kepedulian

@@ -94,7 +94,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 :::
 
-이제 세 단계입니다. Telegram Desktop이나 WhatsApp에서 **[대화를 내보내고](/guide/export)**, 폴더나 `.zip`, `.txt`를 페이지에 **끌어다 놓은 뒤**, **New chat**을 눌러 AI 역할을 누가 맡을지 고르세요. 상대방이 할지, 내가 할지.
+이제 세 단계입니다. Telegram Desktop이나 WhatsApp에서 **[대화를 내보내고](/ko/guide/export)**, 폴더나 `.zip`, `.txt`를 페이지에 **끌어다 놓은 뒤**, **New chat**을 눌러 AI 역할을 누가 맡을지 고르세요. 상대방이 할지, 내가 할지.
 가진 대화가 없다면 가상의 대화로 해 보세요: `rooftop --import ./examples/telegram`.
 (앱의 버튼 이름은 앱과 마찬가지로 영어입니다.)
 
@@ -106,7 +106,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 
 </div>
 
-내보내기는 내 컴퓨터에서 한 번 읽힙니다. 답할 때마다 모델은 스타일 프로필, 내 메모, 미디어 설명을 담은 시스템 프롬프트를 받고, 이어서 [기록 예산](/reference/configuration#settings-only)에 들어가는 가장 최근 대화 부분을 받습니다. 오래된 부분은 짧은 기억으로 접히고, 페르소나는 여전히 그것을 검색할 수 있습니다. 모델은 도구 호출(`send_message`, `send_sticker`, `react`…)로 답하고, 이것이 말풍선, 스티커, 반응이 됩니다. [더 보기 →](/features/how-it-works)
+내보내기는 내 컴퓨터에서 한 번 읽힙니다. 답할 때마다 모델은 스타일 프로필, 내 메모, 미디어 설명을 담은 시스템 프롬프트를 받고, 이어서 [기록 예산](/ko/reference/configuration#settings-only)에 들어가는 가장 최근 대화 부분을 받습니다. 오래된 부분은 짧은 기억으로 접히고, 페르소나는 여전히 그것을 검색할 수 있습니다. 모델은 도구 호출(`send_message`, `send_sticker`, `react`…)로 답하고, 이것이 말풍선, 스티커, 반응이 됩니다. [더 보기 →](/ko/features/how-it-works)
 
 ## 내 대화는 어디로 갈까
 
@@ -115,7 +115,7 @@ OPENAI_BASE_URL=http://localhost:11434/v1 OPENAI_MODEL=qwen3 rooftop --offline
 | 가져오기, 스타일 프로필, 검색, 저장 | 없음: 모두 내 컴퓨터에서 이루어집니다 |
 | 답 하나, 기억 요약 | 내가 고른 모델 엔드포인트, 그 밖에는 없음 |
 | 미디어 설명, 음성 글로 옮기기 | 미디어 모델, **Describe**를 누를 때만 |
-| 인터넷을 통한 공유 링크, Telegram | 켰을 때만; [오프라인 모드](/guide/offline)에서는 꺼집니다 |
+| 인터넷을 통한 공유 링크, Telegram | 켰을 때만; [오프라인 모드](/ko/guide/offline)에서는 꺼집니다 |
 
 ## 질문
 
@@ -132,7 +132,7 @@ OpenAI 호환 `/chat/completions` 엔드포인트 뒤에 있는 **도구 호출*
 :::
 
 ::: details 친구도 페르소나와 대화할 수 있나요?
-네, [공유 링크](/features/share-links)로 가능합니다. 내 Wi‑Fi에서 또는 인터넷으로 `name.iroof.top`에서, PIN과 메시지 제한을 두고 쓸 수 있습니다. 방문자는 대화만 봅니다: 설정, 메모, 프롬프트, 다른 대화는 보이지 않습니다.
+네, [공유 링크](/ko/features/share-links)로 가능합니다. 내 Wi‑Fi에서 또는 인터넷으로 `name.iroof.top`에서, PIN과 메시지 제한을 두고 쓸 수 있습니다. 방문자는 대화만 봅니다: 설정, 메모, 프롬프트, 다른 대화는 보이지 않습니다.
 :::
 
 ::: tip 돌봄에 관한 참고
