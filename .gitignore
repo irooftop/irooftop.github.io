@@ -1,0 +1,8 @@
+.DS_Store
+node_modules
+/docs/node_modules
+/docs/public/img
+/docs/.vitepress/theme/scene.svg
+/docs/.vitepress/dist
+/docs/.vitepress/cache
+/rooftop-src
